@@ -1,4 +1,4 @@
-# Opal Python SDK Script For Removing Empty Permission Sets
+# Opal Python SDK Script For Mass Tagging Items for a UAR
 
 ## About
 This script uses the [Opal Python SDK](https://github.com/opalsecurity/opal-python) to get all groups associated with an Okta Bookmark app (IDP Group Mappings) and apply a tag to them so they can be more easily included in a UAR audit. This is a one off script consideration to help with a customer issue.
@@ -53,7 +53,7 @@ configuration = opal.Configuration(
 - Replace `'OKTA_APP_ID_HERE'` on line 45 with your Okta App ID
 
 ```python
-    app_resource_id = 'OKTA_APP_ID_HERE' # Input the ID for the AWS Auto-approvals, Owners, and Approvers App Here
+    app_resource_id = 'OKTA_APP_ID_HERE' # Input the ID for the Here
 ```
 
 - Run the script
